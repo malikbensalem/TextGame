@@ -29,7 +29,7 @@ public class Level {
 		for (int i=type.length;i>0;i--) {
 			if (py%i==0) {
 				for (int j=type[i-1].length;j>0;j--) {
-					if (py%j==0) {
+					if (px%j==0) {
 						System.out.println(type[i-1][j-1]);
 						return;
 					}
